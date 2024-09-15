@@ -1,0 +1,76 @@
+1.What is Angular?
+-> Angular is js framework and developing platform use to build single page applications(SAP) and progressive wed apps(PWA) Angular is develope and Maintained by Google.
+
+2.What is different by Angular and Angular JS?
+-> Angular JS is uses JS, Developed by Google in 2010.
+-> Angular uses TypeScript, Developed by Google in 2012.
+
+3.What is the different between React and Angular?
+-> React is a Java Script library wheareas Angular is a Java Script framework.
+-> React is uses one way data Binding and Angular uses Two way Data Binding.
+-> React uses other packages for different purposes
+-> Angular has an architecture and will complite the application without other packages.
+
+4.What is Different between library and framework?
+-> The Library is a pre Written code used for specific purpose.
+-> Framework is a complite package of architecture can used for multiple purpose.
+
+NOTE:
+-> Angular used comand line interface to genarate/ delete/ update any of its
+componates,directives etc.This technique of using command prompt for everything is called scaffolding.
+
+Installation:
+-----------------
+you must have already installed node js, npm.
+goto cmd, type following command
+"npm install -g @angular/cli"
+
+To check whether angular installed correctly or not, we can use
+"ng v" command
+
+Note: Angular use command line interface to generate / delete/update any of its components,directives etc..,
+This technique of using command prompt for everything is called scaffolding
+
+
+start first Angular application
+--------------------------------
+Goto vs code , open a specific folder , 
+goto terminal, goto specific folder
+
+"ng new app-name --standalone=false"
+
+folder structure:
+-------------------
+tsconfig -- it sets rules to typescript compiler
+tsconfig.json -- main tsconfig file for whole project
+tsconfig.app.json -- tsconfig file for only app
+tsconfig.spec.json -- specification tsconfig file is for testing
+README.md -- it is for instructions
+package.json- it is the metadata of your project
+package-lock.json -- it is the meta data about package.json
+angular.json-- angular settings are here
+.gitignore -- these files are ignored by giti
+editorConfig -- it balances multiple
+editor for single application
+public  -- folder for public(for images,robots)
+node-modules -- all packages are stored here
+src -- 
+index.html -- it is the main html and it is having app-root by default
+main.ts -- main typescript file which is bootstrapping (converting static dom to dynamic dom) APP MODULE
+styles.css -- main css file which is empty by default
+app -- it contains
+  routing modules
+  component files
+  app module
+
+component: component is the building block of User Interface
+component file contains
+  -- css -- for styling
+  -- html -- for view/structure -- also called template
+  -- ts -- for model/logic/controller -- also called component file
+  -- spec.ts -- for testing
+-----------------------------------------------------
+To Run Angular Application : ng serve -o
+-----------------------------------------------------
+To Build Angular Application : ng build 
+-----------------------------------------------------

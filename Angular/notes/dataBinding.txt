@@ -1,0 +1,22 @@
+In every component, there will be one HTML file also call as Template file and one TS file also called as component file.
+
+WHat is DataBinding?
+DataBinding means transformering data between Template and component files.
+There is two types of dataBinding.
+   1.One way DataBinding:
+     --Using one way dataBinding we can Transfer data either template to component or component to template.There are 3  possible way:
+        a. String Interpolation: 
+          --we can send the data to component (TS) to Template(HTML) using sting Interpolation.
+          --It wraps the data between double braces.
+          --String Interpolation always takes value as string.
+        b. Property Binding:
+          --we can bind property values from component file to Template file using property binding, it wraps the data in between squre brackets.
+          --property binding can be used for dynamic class or dynamic styling.
+        c. Event Binding:
+          --we can bind events data form Template file to Component file, using event binding it wraps data between parenthesis.
+        
+
+
+
+   2.Two way DataBinding:
+    --
